@@ -92,3 +92,10 @@ Notes
 - `TLIC.pyproj` remains at project root for the existing Visual Studio project layout.
 
 py -m PyInstaller --noconfirm --clean --onefile --windowed --icon=TLIC\assets\app.ico --add-data "TLIC\assets\app.ico;assets" --add-data "TLIC\assets\splash.png;assets" TLIC\TLIC.py
+
+py -m PyInstaller --noconfirm --clean --onefile --windowed --name TLIC_v1_0 --icon=TLIC\assets\app.ico --splash TLIC\assets\splash.png --add-data "TLIC\assets\app.ico;assets" --add-data "TLIC\assets\app_16.ico;assets" --add-data "TLIC\assets\app_32.ico;assets" --add-data "TLIC\assets\app_48.ico;assets" --add-data "TLIC\assets\app_64.ico;assets" --add-data "TLIC\assets\app_128.ico;assets" --add-data "TLIC\assets\app_256.ico;assets" --add-data "TLIC\assets\splash.png;assets" TLIC\TLIC.py
+
+
+
+
+
